@@ -16,6 +16,10 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 1.1.1 =
+* Added new filters for addons settings
+* Few bug fixes and improvement
+
 = 1.1.0 =
 * Added redirect attribute to login and registration shortcodes
 
