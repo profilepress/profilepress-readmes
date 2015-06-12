@@ -3,7 +3,7 @@ Contributors: Collizo4sky
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
 Tested up to: 4.2.2
-Stable tag: 1.3
+Stable tag: 1.3.1
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -16,6 +16,8 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 1.3.1 =
+* Fixed: Global redirect error casuing login, registration and password reset page to be afftected by the redirect.
 
 = 1.3 =
 * Mew: Added Melange combo form builder
