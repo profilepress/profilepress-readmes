@@ -17,7 +17,7 @@ See the website for more info http://profilepress.net
 == Changelog ==
 
 = 1.3.1 =
-* Fixed: Global redirect error casuing login, registration and password reset page to be afftected by the redirect.
+* Fixed: Global redirect error causing login, registration and password reset page to be affected by the redirect.
 
 = 1.3 =
 * Mew: Added Melange combo form builder
