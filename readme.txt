@@ -3,7 +3,7 @@ Contributors: Collizo4sky
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
 Tested up to: 4.2.2
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -15,6 +15,10 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.3.3 =
+* Added: textarea custom field for registration and edit profile
+* Added: support for any frm field attribute be it tabindex, size, maxlength etc
 
 = 1.3.2 =
 * Fixed: bug in PP SQL that prevented custom field from being deleted.
