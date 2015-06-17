@@ -18,7 +18,7 @@ See the website for more info http://profilepress.net
 
 = 1.3.3 =
 * Added: textarea custom field for registration and edit profile
-* Added: support for any frm field attribute be it tabindex, size, maxlength etc
+* Added: support for any form field attribute be it tabindex, size, maxlength etc
 
 = 1.3.2 =
 * Fixed: bug in PP SQL that prevented custom field from being deleted.
