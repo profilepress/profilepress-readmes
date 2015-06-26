@@ -3,7 +3,7 @@ Contributors: Collizo4sky
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
 Tested up to: 4.2.2
-Stable tag: 1.4
+Stable tag: 1.4.1
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
