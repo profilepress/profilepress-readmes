@@ -16,6 +16,9 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 1.4.1 =
+* Hot Fix: undefine BP function call.
+
 = 1.4 =
 * Added: support for BuddyPress
 
