@@ -2,8 +2,8 @@
 Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
-Tested up to: 4.2.2
-Stable tag: 1.4.2
+Tested up to: 4.2.3
+Stable tag: 1.5
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -15,6 +15,16 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.5 =
+* Fixed: multiple instance of reCAPCHA resource link in header
+* Added: PANTHEON hosting session support.
+* Added: Ability to redirect users to the page they were before they logged in
+* New filters: pp_extras_page_top and pp_extras_page_bottom
+* Removed: obnoxious license expired admin notice
+* Updated: TGM activation class
+* Added: new front-end profile called Monochrome
+* Improved plugin translation and internalization
 
 = 1.4.2 =
 * Hot Fix: missing argument in auto login function call
