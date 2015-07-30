@@ -16,6 +16,9 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 1.5.2 =
+* Fix misplaced argument in "pp_after_registration" Action.
+
 = 1.5.1 =
 * Fix password reset link getting overriden by WooCommerce and similar plugins.
 * Fix Javascript security issue in recaptcha when js is disabled.
