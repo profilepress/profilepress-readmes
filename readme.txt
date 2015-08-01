@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
 Tested up to: 4.2.3
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -15,6 +15,9 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.5.3 =
+* Fix user login bug due to unnecessary captcha verification when recaptcha is inactive.
 
 = 1.5.2 =
 * Fix misplaced argument in "pp_after_registration" Action.
