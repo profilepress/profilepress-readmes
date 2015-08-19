@@ -2,8 +2,8 @@
 Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
-Tested up to: 4.2.3
-Stable tag: 1.5.3
+Tested up to: 4.3
+Stable tag: 1.5.4
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -15,6 +15,13 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.5.4 =
+* Removed action attribute from form tags
+* Fixed restoring revision of melange
+* Extended the number of characters in melange title to 50.
+* auto login after registration now work even if user moderation is enabled.
+* Make front-end profile shortcode available outside of front-end profile builder.
 
 = 1.5.3 =
 * Fix user login bug due to unnecessary captcha verification when recaptcha is inactive.
