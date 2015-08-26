@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
 Tested up to: 4.3
-Stable tag: 1.5.4
+Stable tag: 1.6
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -15,6 +15,14 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.6 =
+* Added filter to change front-end profile slug
+* Added support for sortable of profile fields
+* Fixed multisite problem causing 500 internal server error.
+* Removed network_admin_menu from plugin
+* Improve plugin uninstallation for multisite
+* Fixed invalid translation function
 
 = 1.5.4 =
 * Removed action attribute from form tags
