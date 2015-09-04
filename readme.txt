@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 3.6.1
 Tested up to: 4.3
-Stable tag: 1.6
+Stable tag: 1.6.1
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -15,6 +15,11 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.6.1 =
+* Added WPEngine(and host without PHP session) support for social login.
+* Fixed a small bug in profilepress avatar implementation.
+* Added bbPress and buddyPress plugin integration: override both profiles urls with ProfilePress front-end profile.
 
 = 1.6 =
 * Added filter to change front-end profile slug
