@@ -1,9 +1,9 @@
 === ProfilePress ===
 Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
-Requires at least: 3.6.1
-Tested up to: 4.3
-Stable tag: 1.6.1
+Requires at least: 4.0
+Tested up to: 4.3.1
+Stable tag: 1.7.1
 License: GPL-2.0+
 
 Ultimate WordPress Account Manager for WordPress
@@ -15,6 +15,23 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.7.1 =
+* Fixed bug when displaying user profile with space in username.
+* Removed network_admin_menu from melange settings page
+* Added blog_id to melange table on multisite DB creation
+* Fixed bug with plugin not creating custom tables during multisite installation.
+* Added action link below user to send one time passwordless login link
+* Increased custom profile fields options from 200 chars to 3000
+
+= 1.7 =
+* fixed password reset key being invalid.
+* Reduced the time in seconds before temp user created by social login for WPengine supported host is deleted
+* Removed user password from welcome message on plugin activation
+* Removed deprecated pp_extras_page filter in extras settings page
+* Changed avatar folder to a folder called 'pp-avatar' in wp-content
+* Ensure temp user during social login is deleted when authorization is cancelled or trigger an error.
+* Fixed shortcode tags in html link made broken by WordPress 4.3 release change in shortcode API
 
 = 1.6.1 =
 * Added WPEngine(and host without PHP session) support for social login.
