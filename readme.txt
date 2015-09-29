@@ -3,10 +3,10 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 License: GPL-2.0+
 
-Ultimate WordPress Account Manager for WordPress
+Ultimate User Manager plugin for WordPress.
 
 == Description ==
 Stupidly simple way to create user account forms without a single line of PHP code.
@@ -15,6 +15,13 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.7.2 =
+* Fixed conflict with press permit plugin.
+* Added option to disable passwordless login for site admins.
+* fixed bug whereby sender name and email of password reset message defaulted to WordPress.
+* Fixed username not being included in passeordless login email to user.
+* More code improvement.
 
 = 1.7.1 =
 * Fixed bug when displaying user profile with space in username.
