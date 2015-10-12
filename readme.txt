@@ -16,6 +16,19 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 1.8 =
+* Fixed bug where passwordless email subject isn't set.
+* Fixed bug with ProfilePress front-end profile title aving missing argument error.
+* Refactored welcome email class and implementation.
+* Added hook and filters to social signup register_user function.
+* Fixed settings page design for adding new edit profile.
+* Upgraded social login library.
+* Added: Front-end password reset now possible.. hurray
+* Change shortcake button id to class to enable multiple instance of wp-media window.
+* Refactored user moderation approval class method.
+* Added: send admin a notification when a user is pending approval and an approval link to approve users.
+* Added filter to disable edit profile redirection to custom edit profile page for administrators.
+
 = 1.7.2 =
 * Fixed conflict with press permit plugin.
 * Added option to disable passwordless login for site admins.
