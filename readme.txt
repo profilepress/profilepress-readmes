@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.7.2
+Stable tag: 1.8
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
