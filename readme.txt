@@ -17,7 +17,7 @@ See the website for more info http://profilepress.net
 == Changelog ==
 
 = 1.8.1 =
-* Fixed bug where admin user email notification include the site name instead of the string "time and season foods". We're sorry.
+* Fixed bug where admin user email notification include the string "time and season foods" instead of the site name. We're sorry.
 
 = 1.8 =
 * Fixed bug where passwordless email subject isn't set.
