@@ -16,6 +16,9 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 1.8.2 =
+* Removed license activation restriction
+
 = 1.8.1 =
 * Fixed bug where admin user email notification include the string "time and season foods" instead of the site name. We're sorry.
 
