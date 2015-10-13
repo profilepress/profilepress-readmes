@@ -16,6 +16,9 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 1.8.1 =
+* Fixed bug where admin user email notification include the site name instead of the string "time and season foods". We're sorry.
+
 = 1.8 =
 * Fixed bug where passwordless email subject isn't set.
 * Fixed bug with ProfilePress front-end profile title aving missing argument error.
