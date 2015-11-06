@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.8.1
+Stable tag: 1.9
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,30 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.9 =
+* Added backward compatibility of password reset key generation harsh prior to WP 4.3
+* Allows logged in users to reset their password.
+* Made all admin notices dismissible.
+* Added admin notification when a user registers an account.
+* Added action hook to create custom shortcodes for forms and front-end profile.
+* Added admin notice for user to add their license key when not activated.
+* Check to see if pending_user role exist before adding the role to a user when moderation is active
+* Fixed bug where user were lacking moderated role capability after approval.
+* Added moderation capability to social login/registration.
+* Added [pp-logged-users] and [pp-non-logged-users] shortcodes to make content visible to logged and non logged users respectively.
+* Added custom url redirect capability for login and logout redirection.
+* Added bulk user moderation.
+* Refactored global redirection to include filter for custom page IDs.
+* Fixed [pp-redirect-non-logged-in-users] shortcode redirecting to after_login_redirect_url instead of login page url.
+* Added do reset password handler structure to theme installer.
+* Added date field to registration and edit profile forms.
+* Deleting a form now delete its revision.
+* Added filter to alter stored revision count.
+* User role selection baked into the registration form settings page.
+* Added dashboard notification when a user is pending moderation.
+* Added registration confirmation password field.
+* Implemented password strength meter that can be added to registration form.
 
 = 1.8.2 =
 * Removed license activation restriction
