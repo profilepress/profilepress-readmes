@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.9
+Stable tag: 1.9.1
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,15 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 1.9.1 =
+* Removed early escaping of user email address during password reset.
+* Fixed facebook profile image not getting uploaded during social registration.
+* Removed jquery dependence in datepicker script enqueue.
+* Fixed multiple admin notification getting sent.
+* Added filter to password reset error notice.
+* Added filters to moderation notifications and welcome message after registration.
+* Added admin notice when user registration is disabled.
 
 = 1.9 =
 * Added backward compatibility of password reset key generation harsh prior to WP 4.3
