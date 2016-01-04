@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.4
-Stable tag: 1.9.1
+Stable tag: 2.0
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,21 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.0 =
+* Added file uploader to custom field settings and implemented a class to handle the file uploads.
+* Fixed "license key not activated" admin notice link to license settings page.
+* Added user uploaded files to WordPress default profile page.
+* Repositioned pp_after_Registration action hook after welcome message and before autologin
+* Increased the gravatar size to about 300 to make the images legible.
+* Added action hooks after social login and registration.
+* fixed bug where Email Confirmation not working with option ‘Login with email’ enabled
+* Restrict admin notices to only administrators.
+* Added ability for user and admin to update file uploaded in WordPress default profile page.
+* Added support to edit uploaded file in profilepress edit profile form.
+* Added config to enable twitter to return user email only if app is whitelisted.
+* Do not display number of pending user admin notice when its 0
+* Added profile-file shortcode doc to contextual help tab
 
 = 1.9.1 =
 * Removed early escaping of user email address during password reset.
