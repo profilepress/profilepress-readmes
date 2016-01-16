@@ -16,6 +16,10 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 2.1.1 =
+* Added option to disable required attribute in login and registration form fields.
+* Fix issue where users' avatar/profile picture wasn't getting saved on front-end edit profile form
+
 = 2.1 =
 * Welcome message now triggers after registration via social login.
 * Social login session is now destroyed when a user log out.
