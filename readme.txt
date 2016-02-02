@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.4.1
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,15 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.1.3 =
+* Turn off social login debug mode by default and added a filter to switch it ON if need be.
+* Fixed metabox naming in welcome message settings.
+* Fixed error when installing registration form theme.
+* Fixed revision settings page conflicting with a theme options.php settings page.
+* Fixed sanitization of custom field adding slash to quotes.
+* Removed duplicate front-end profile settings
+
 
 = 2.1.2 =
 * Fixed bug where social login via Twitter doesn't use user's email address even when it is returned.
