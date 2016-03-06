@@ -16,6 +16,13 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 2.2.1 =
+* Added limit to chose select multi option dropwdown.
+* Fixed bug in multi-select dropwdown.
+* Now using add_query_args function for social login links. 
+* Added vk.com social login url shortcode.
+* Fixed: Email confirmation not working when a melange form is use as login.
+
 = 2.2 =
 * Updated fzbuk forms css.
 * Fixed bug where data weren't erased when an edit profile field is emptied.
