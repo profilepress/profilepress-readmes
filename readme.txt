@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.4.2
-Stable tag: 2.2.1
+Stable tag: 2.3
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,19 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.3 =
+* Fixed bug where profile avatar wasn't getting updated in edit profile form.
+* Feature: explicitly make login form passwordless
+* Added filter to skip passwordless login
+* Composer autoloader for social login library.
+* Fixed: bug where google login request offline access from users.
+* Added multi selection for checkbox
+* Added form ID to action hook after edit profile update
+* Form builder UI improvement.
+* Added filter to all builder with missing error/status filter.
+* Fixed: bug where a field with file upload wasn't selected in edit screen.
+* Added filter to facebook and google social login scope
 
 = 2.2.1 =
 * Added limit to chose select multi option dropwdown.
