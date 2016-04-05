@@ -2,7 +2,7 @@
 Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.4.2
+Tested up to: 4.5
 Stable tag: 2.3
 License: GPL-2.0+
 
@@ -27,7 +27,9 @@ See the website for more info http://profilepress.net
 * Form builder UI improvement.
 * Added filter to all builder with missing error/status filter.
 * Fixed: bug where a field with file upload wasn't selected in edit screen.
-* Added filter to facebook and google social login scope
+* Added filter to facebook and google social login scope.
+* Fixed bug where output buffering caused unexpected white screen.
+* All class instancea are now loaded in plugins_loaded action
 
 = 2.2.1 =
 * Added limit to chose select multi option dropwdown.
