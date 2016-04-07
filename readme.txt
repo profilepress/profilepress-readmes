@@ -30,12 +30,12 @@ See the website for more info http://profilepress.net
 * Fixed: bug where google login request offline access from users.
 * Added multi selection for checkbox
 * Added form ID to action hook after edit profile update
-* Form builder UI improvement.
-* Added filter to all builder with missing error/status filter.
+* Form builder UI enhancement.
+* Added filter to all builder with missing error/status.
 * Fixed: bug where a field with file upload wasn't selected in edit screen.
 * Added filter to facebook and google social login scope.
 * Fixed bug where output buffering caused unexpected white screen.
-* All class instancea are now loaded in plugins_loaded action
+* All class instance are now loaded in plugins_loaded action
 
 = 2.2.1 =
 * Added limit to chose select multi option dropwdown.
