@@ -20,6 +20,7 @@ See the website for more info http://profilepress.net
 * Fixed critical "header already sent" error.
 * Added filter to disable plugin comment attribution in source code.
 * Added ID to all form tags.
+* Fixed a passwordless login bug.
 
 = 2.3 =
 * Fixed bug where profile avatar wasn't getting updated in edit profile form.
