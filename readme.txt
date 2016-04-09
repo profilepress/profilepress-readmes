@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.5
-Stable tag: 2.3.1
+Stable tag: 2.3.2
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,9 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.3.2 =
+* Fixed bug where avatar upload on registration and edit profile forms not working correctly.
 
 = 2.3.1 =
 * Fixed critical "header already sent" error.
