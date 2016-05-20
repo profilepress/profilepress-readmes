@@ -20,9 +20,11 @@ See the website for more info http://profilepress.net
 * Moved avatar validation before actual user registration.
 * New: added registration shortcode that display a list of roles user can choose on registration.
 * Fixed bug where global multisite form where restricted to blog_id that made the form update.
+* Fixed bug where new edit profile form wasn't being added to database.
 * New: added user panel widget.
 * New: added "pp-hide-empty-field" shortcode to hide profile field when it has no value or its empty.
 * New: shortcodes for bbpress specific profile links eg topic created, subscriptions etc.
+* New: buttons to install starter themes for login, registration, password reset, edit profile and front-end user profile.
 * Hardening of plugin securityin light of ninja form exploit.
 * Bug fixes and tweaks.
 
