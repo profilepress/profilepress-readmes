@@ -2,8 +2,8 @@
 Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.5
-Stable tag: 2.3.2
+Tested up to: 4.5.2
+Stable tag: 2.4
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,20 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.4 =
+* Moved avatar validation before actual user registration.
+* New: added registration shortcode that display a list of roles user can choose on registration.
+* Fixed bug where global multisite form where restricted to blog_id that made the form update.
+* New: added user panel widget.
+* New: added "pp-hide-empty-field" shortcode to hide profile field when it has no value or its empty.
+* New: shortcodes for bbpress specific profile links eg topic created, subscriptions etc.
+* Hardening of plugin securityin light of ninja form exploit.
+* Bug fixes and tweaks.
+
+
+* Added ID to all form tags.
+* Fixed a passwordless login bug.
 
 = 2.3.2 =
 * Fixed bug where avatar upload on registration and edit profile forms not working correctly.
