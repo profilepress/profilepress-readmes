@@ -28,10 +28,6 @@ See the website for more info http://profilepress.net
 * Hardening of plugin securityin light of ninja form exploit.
 * Bug fixes and tweaks.
 
-
-* Added ID to all form tags.
-* Fixed a passwordless login bug.
-
 = 2.3.2 =
 * Fixed bug where avatar upload on registration and edit profile forms not working correctly.
 
