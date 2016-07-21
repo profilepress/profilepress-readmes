@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.6
-Stable tag: 2.5.2
+Stable tag: 2.5.3
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -16,8 +16,11 @@ See the website for more info http://profilepress.net
 
 == Changelog ==
 
+= 2.5.3 =
+* Fix critical bug where resetting of password was failing.
+
 = 2.5.2 =
-* Fix iregular nonce security failure on ajax login, registration and password reset forms.
+* Fix irregular nonce security failure on ajax login, registration and password reset forms.
 
 = 2.5.1 =
 * Fixed bug where action and filter callbacks where not triggering in Ajax mode.
