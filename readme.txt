@@ -3,7 +3,7 @@ Contributors: Agbonghama Collins
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.6
-Stable tag: 2.5.3
+Stable tag: 2.5.4
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,16 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.5.4 =
+* Added filter to login, registration, password reset and edit profile form tag
+* Fixed bug where license is deem invalid after check. now it can update license status
+* Remove some shipped bootstrap css bloat
+* Added event triggering in various stages of ajax mode of forms
+* Added ajax support to melange form
+* Fixed mixed content warning in console for Rye google font css import rule
+* Added some action hook to support buddypress profile sync addon
+
 
 = 2.5.3 =
 * Fix critical bug where resetting of password was failing.
