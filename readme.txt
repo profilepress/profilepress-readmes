@@ -3,7 +3,7 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.6.1
-Stable tag: 2.5.6
+Stable tag: 2.6
 License: GPL-2.0+
 
 Ultimate User Manager plugin for WordPress.
@@ -15,6 +15,28 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.6 =
+* Added detection of admin ssl flag during login via autologin, passwordless login and social login.
+* Added filter to disable redirect from default wordpress account form to custom one.
+* Fixed bug where disable ajax mode notice displays even when disabled.
+* If password form field is empty, a link to reset password reset is sent immediately after user registration.
+* Added hook to dismiss ajax enabled notification.
+* Added: no-login-redirect attribute to registration shortcode to redirect user to custom page after registration without autologin.
+* Added: "pp_auto_login_before_signup_redirection" filter to disable autologin in "autologin after registration module" before redirecting to custom url after registration.
+* Improve support for melange forms in ajax mode.
+* ProfilePress avatar now overrides that of buddypress.
+* Added shortcode pp-redirect-logged-in-users.
+* Social signup now trigger new user notification sent to admin.
+* Heartbeat auth check now return default WordPress login page instead of ProfilePress powered login page.
+* Responsive fix for all Smiley themes.
+* Added: customization of "new user notification to admin" email now possible.
+* Added filter to deactivate tgmpa admin notice.
+* Added indicator to show where user signup from.
+* Added checkbox to disable username requirement in registration form admin screen.
+* Bug fixes in form builders settings pages.
+* Registration without username now possible when it checkbox settings is checked.
+* Social login library upgrade.
 
 = 2.5.6 =
 * Added filter to disable 'registration disable admin notice'
