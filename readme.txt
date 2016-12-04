@@ -12,7 +12,7 @@ Ultimate WordPress plugin for User Registration, Login, Profile & more.
 Stupidly simple way to create user account forms without a single line of PHP code.
 
 == Frequently Asked Questions ==
-See the website for more info http://profilepress.net
+See the website for more info https://profilepress.net
 
 == Changelog ==
 
