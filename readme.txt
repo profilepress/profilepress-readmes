@@ -3,10 +3,10 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.6.1
-Stable tag: 2.6
+Stable tag: 2.6.1
 License: GPL-2.0+
 
-Ultimate User Manager plugin for WordPress.
+Ultimate WordPress plugin for User Registration, Login, Profile & more.
 
 == Description ==
 Stupidly simple way to create user account forms without a single line of PHP code.
@@ -15,6 +15,20 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info http://profilepress.net
 
 == Changelog ==
+
+= 2.6.1 =
+* Bug fixes in frontend.js
+* Removed shortcake "Add Post Element" button.
+* Fixed bug where disable ajax mode notice displays even when disabled.
+* Fixed bug where contact info wasn't added because of contact-info query string being cleared.
+* Custom profile field key limit has been upgraded to 100.
+* Updated google fonts to https in all ProfilePress themes.
+* Fixed php error display in checkbox options in edit profile form.
+* Fix bug where empty checkboxes do not return value in POSTed data.
+* Added "disable username requirement" support to melange.
+* Fixed bug in GitHub username detection on social login.
+* Username generation via facebook social login now from the username part of their email addresses.
+* Using one central composer autoloader.
 
 = 2.6 =
 * Added detection of admin ssl flag during login via autologin, passwordless login and social login.
