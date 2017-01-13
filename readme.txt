@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.6.1
-Stable tag: 2.6.2
+Tested up to: 4.7.1
+Stable tag: 2.7
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,30 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.7 =
+* Added email confirmation field to edit user profile form.
+* Improved license activation, deactivation and updater.
+* Added {{email}} placeholder to passwod reset message content.
+* Fixed issue where login via email address result in username being show as login identifier when there is login error.
+* Added filter to enable remember me in passwordless login. 
+* Fix bug where forward slash was being added to single quoted value of custom field.
+* Added [password-hint] shortcode to display hint on generating better and stronger password.
+* Add placeholder to include link to reset password in welcome message.
+* Added filters to moderation notification and passwordless login placeholders.
+* Added email placeholder to welcome message and filter to include custom placeholders.
+* Fixed issue of multiple status message/notice being display after editing profile in ajax mode.
+* Added confirm email field to registration form.
+* Added server-side validation of required fields.
+* Added (more) validation to custom field settings page.
+* Simplified logic for adding required attribute to fields.
+* Plugin admin css and js now loaded only in ProfilePress settings pages.
+* Added filter to disable pending user admin notification.
+* Added email placeholder to moderation status email notifications.
+* Added first name and last name placeholder for "Admin Notification When a New User Is Pending Approval" notification.
+* Added filter to success and error message.
+* Fixed error 'TypeError: invalid ‘in’ operand response' when trying to login and signup when user is already logged in.
+* Added email address validation when editing profile.
 
 = 2.6.2 =
 * Fixed bug where social login resulted to whitepage being displayed.
