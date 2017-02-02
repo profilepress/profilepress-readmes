@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.7.1
-Stable tag: 2.7.1
+Tested up to: 4.7.2
+Stable tag: 2.8
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,17 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8 =
+* Added checkbox for disabling of user status email notification.
+* Added password, email, tel, hidden, country and number custom fields.
+* Fixed bug where site.com/wp-admin wasn't redirecting to set custom login page.
+* Added firstname and lastname fields to 'new user admin notification settings.
+* Fixed bug with validating required fields in checkbox, radio, select.
+* Redirect to currently viewed page on social login now working.
+* Fixed bug where empty field in new user admin notification settings could break (ajax) registration.
+* Added confirm password field to edit profile form.
+* added filters to wp_insert_user() call.
 
 = 2.7.1 =
 * Fixed potiential issue where license control class unavailability could break admin ajax.
