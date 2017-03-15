@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.7.2
-Stable tag: 2.8.1
+Tested up to: 4.7.3
+Stable tag: 2.8.2
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,12 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8.2 =
+* Fixed bug where value of "redirect_to" query string wasn't being used after ajax login is successful in ProfilePress powered login form.
+* Fixed bug where select limit of last select-dropdown affects the preceded ones.
+* Added support for limiting selectable options in multiselect custom field for mobile devices.
+* Fixed bug where plugin admin css wasn't enqueued in certain critical areas.
 
 = 2.8.1 =
 * Added filter "pp_allow_empty_password_unchanged" to edit profile form. if set to true, empty password and empty confirm password field will cause password not to be changed.
