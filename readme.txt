@@ -3,7 +3,7 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.7.3
-Stable tag: 2.8.2
+Stable tag: 2.8.3
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,14 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8.3 =
+* Fixed jquery chosen bug deselection on desktop.
+* Improve responsiveness of profilepress core themes.
+* Fixed bug where signup from melange wasn't shown in "Registered Via" column in user listing.
+* Added filter to admin email that will receive new user notification.
+* Added filter to password reset subject and message.
+* Added more filters to front end profile and action to settings form parser.
 
 = 2.8.2 =
 * Fixed bug where value of "redirect_to" query string wasn't being used after ajax login is successful in ProfilePress powered login form.
