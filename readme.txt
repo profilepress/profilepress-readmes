@@ -3,7 +3,7 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.7.3
-Stable tag: 2.8.3
+Stable tag: 2.8.4
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,16 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8.4 =
+* Added support for redirect attribute in melange edit profile / edit profile form.
+* Added "option to redirect to page /url after successful password reset".
+* Fixed bug in login PHP class that broke tabbed login/sign up/ lost password widget.
+* Added {{block_url}} placeholder for admin to block new user after registration right inside the email.
+* Fixed issue with 'new user notification not sending'.
+* Added agreeable custom field.
+* Added cloning feature to form builder listing page.
+* Fixed bug where pp_chosen_browser_is_supported() function is undefined in form preview frame. hence breaking the preview onload.
 
 = 2.8.3 =
 * Fixed jquery chosen bug deselection on desktop.
