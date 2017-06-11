@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.7.3
-Stable tag: 2.8.4
+Tested up to: 4.8
+Stable tag: 2.8.5
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,12 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8.5 =
+* Added more filter to wp_email admin email addresses
+* pp_site_url_without_scheme() now return just the host address even if the wordpress install is in e.g domain.tld/wp
+* Bail if sender email is not valid. Hoping this will reduce support tickets about ajax registration breaking.
+* Fix small bug in invalid object reference in avatar class
 
 = 2.8.4 =
 * Added support for redirect attribute in melange edit profile / edit profile form.
