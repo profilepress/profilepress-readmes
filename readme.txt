@@ -3,7 +3,7 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 2.8.5
+Stable tag: 2.8.6
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,9 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8.6 =
+* Fixed bug that prevent updated from being delivered.
 
 = 2.8.5 =
 * Added more filter to wp_email admin email addresses
