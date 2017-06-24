@@ -17,7 +17,7 @@ See the website for more info https://profilepress.net
 == Changelog ==
 
 = 2.8.6 =
-* Fixed bug that prevent updated from being delivered.
+* Fixed bug that prevented plugin updates from being received.
 
 = 2.8.5 =
 * Added more filter to wp_email admin email addresses
