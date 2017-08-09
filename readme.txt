@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.8
-Stable tag: 2.8.6
+Tested up to: 4.8.1
+Stable tag: 2.8.7
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,11 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8.7 =
+* Entered username/email address during password reset is now cleared after every reset attempt.
+* Login form without 'remember me' checkbox default to long expiring session.
+* Code and performance improvements.
 
 = 2.8.6 =
 * Fixed bug that prevented plugin updates from being received.
