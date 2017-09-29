@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.8.1
-Stable tag: 2.8.7
+Tested up to: 4.8.2
+Stable tag: 2.8.8
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -15,6 +15,18 @@ Stupidly simple way to create user account forms without a single line of PHP co
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.8.8 =
+* Added filter to disable/modify google captcha script.
+* Added filter to make content-type of 'pending user admin notification email' HTML.
+* Added filter to disable flatui and bootstrap CSS stylesheets.
+* Added new [profile-post-list] shortcode to display list of user posts.
+* Fixed bug where redirection to current page after login wasn’t working in Ajax mode.
+* Added user profile title rewrite support to themes using add_theme_support( 'title-tag’) for core to output title in pages.
+* Frontend profile shortcode now accept "user-id" to display profile info of any specific user.
+* Added shortcode to display date users registered.
+* Fixed bug where pending user admin notice cause settings page not to display.
+* Fixed bug where empty password reset subject and/or body could cause reset email not to be sent.
 
 = 2.8.7 =
 * Entered username/email address during password reset is now cleared after every reset attempt.
