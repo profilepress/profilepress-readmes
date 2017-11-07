@@ -2,19 +2,39 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.8.2
-Stable tag: 2.8.8
+Tested up to: 4.9
+Stable tag: 2.9
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
 
 == Description ==
-Stupidly simple way to create user account forms without a single line of PHP code.
+Stupidly simple way to create WordPress user registration, login, password reset forms as well as user profile without a single line of PHP code.
+
+ProfilePress is the ultimate WordPress user management plugin.
 
 == Frequently Asked Questions ==
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9 =
+* Comment count profile shortcode now return only empty comment_type. Thus removing removing EDD and WooCommerce order notes.
+* Fixed bug where clicking on password reset link on site without pretty permalink was failing.
+* Fixed bug where [user-avatar-url] was returning html image of user profile avatar instead of just the url.
+* Ensure user object variable is set to prevent undefined variable error throwing when WP_Debug is true.
+* Added more parameters to pp_before_saving_file and pp_after_saving_file hooks.
+* Upgraded hybridauth and Facebook PHP SDK which apparently fix issues with Facebook login.
+* User moderation now kicks in during social login only if moderation is active.
+* Added default select option to "after password reset" redirect.
+* Password reset and handler forms now hidden after successful reset. The former doesn't get hidden in non-ajax mode. Sorry!
+* Changing of user profile slug now possible in settings.
+* Metabox handle icon now displays for visibility toggling.
+* Added expand and collapse buttons to general settings page.
+* BbPress and BuddyPress settings now only show up if their plugins are active.
+* Added password strength meter shortcode to edit profile form.
+* Added "pp_min_password_strength" filter to reduce password minimum strength requirement in supported forms.
+* Fixed bug where cloning a registration form displayed cloned role as date and date as role.
 
 = 2.8.8 =
 * Added filter to disable/modify google captcha script.
