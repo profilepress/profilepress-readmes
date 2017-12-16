@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.9
-Stable tag: 2.9
+Tested up to: 4.9.1
+Stable tag: 2.9.1
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -17,6 +17,14 @@ ProfilePress is the ultimate WordPress user management plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9.1 =
+* Optimized temp user creation query on social login for WPEgine hosting.
+* Replaced incorrect usage of esc_url() with esc_url_raw()
+* Fix wrong encoding of redirect_to query URL string.
+* Fixed issue with linkedin social login not working.
+* Added filter to social login config array.
+* Remove unecessary enqueue of zxcvbn lib.
 
 = 2.9 =
 * Comment count profile shortcode now return only empty comment_type. Thus removing removing EDD and WooCommerce order notes.
