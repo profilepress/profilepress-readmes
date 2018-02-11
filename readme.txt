@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.9.1
-Stable tag: 2.9.1
+Tested up to: 4.9.4
+Stable tag: 2.9.2
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -17,6 +17,16 @@ ProfilePress is the ultimate WordPress user management plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9.2 =
+* Fixed issue with GitHub login not included in ProfilePress request cycle.
+* Github social login now include scope to request user private email.
+* All email from social login are now lower cased before use.
+* All fixed: Fixed: [DOM] Found x elements with non-unique id.
+* Removed user hometown and birthday scopes from facebook social login.
+* Password reset title, subject and message is now eithout WordPress filters. Needed to avoid distortion and modifications by other plugins.
+* Added pp_current_url as hidden param in registration form.
+* Added hidden field to capture referrer url in login form.
 
 = 2.9.1 =
 * Optimized temp user creation query on social login for WPEgine hosting.
