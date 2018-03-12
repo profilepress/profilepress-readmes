@@ -3,7 +3,7 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.9.4
-Stable tag: 2.9.2
+Stable tag: 2.9.3
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -17,6 +17,11 @@ ProfilePress is the ultimate WordPress user management plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9.3 =
+* PP_Passwordless_Login properties are now public for extensibility sake.
+* frontend.js now uses $(document).on() for improved ajax compatibility.
+* Added more param to 'pp_after_saving_avatar' filter
 
 = 2.9.2 =
 * Fixed issue with GitHub login not included in ProfilePress request cycle.
