@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 4.9.6
-Stable tag: 2.9.4
+Tested up to: 4.9.8
+Stable tag: 2.9.5
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -17,6 +17,12 @@ ProfilePress is the ultimate WordPress user management plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9.5 =
+* Added support for WordPress GDPR export and erase tool.
+* Added: URL parameters or query string to populate signup field now possible.
+* Improve destroying of social login session after login/logout.
+* Added registration flag to social signup login redirect filter.
 
 = 2.9.4 =
 * Fixed bug where moderation notices wasn't kicking in
