@@ -3,7 +3,7 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 4.9.8
-Stable tag: 2.9.5
+Stable tag: 2.9.6
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -17,6 +17,15 @@ ProfilePress is the ultimate WordPress user management plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9.6 =
+* Improved reCAPTCHA protection implementation.
+* Fixed: ProfilePress avatar overriding buddypress even when override settings is disabled.
+* Removed stack trace from social login error logging.
+* Fixed bug where multi option checkbox not checked when custom fields are re-ordered.
+* Fixed where multi checkbox options was showing redundant commas for empty value on frontend profile.
+* Upgraded VK social login lib.
+* Content restriction to logged/non logged users now parses shortcode in content.
 
 = 2.9.5 =
 * Added support for WordPress GDPR export and erase tool.
