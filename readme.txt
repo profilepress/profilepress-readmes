@@ -2,8 +2,8 @@
 Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
-Tested up to: 5.0.3
-Stable tag: 2.9.9
+Tested up to: 5.1
+Stable tag: 2.9.10
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -18,9 +18,9 @@ See the website for more info https://profilepress.net
 
 == Changelog ==
 
-= 2.9.9 =
-* Fix for reg select role shortcode not working with authorized roles.
-* Fixed issue where shortcake wasn’t working in inserting shortcode to tinymce
+= 2.9.10 =
+* Fixed bug where redirect after logout wasn't working.
+* Fixed issue where login was failing with special characters in username/password.
 
 = 2.9.8 =
 * Added support for custom fields in new user admin notification.
