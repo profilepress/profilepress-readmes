@@ -3,7 +3,7 @@ Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 5.1
-Stable tag: 2.9.10
+Stable tag: 2.9.11
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -17,6 +17,10 @@ ProfilePress is the ultimate WordPress user management plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9.11 =
+* Fixed error triggered when username requirement is disabled.
+* Fix:  PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated.
 
 = 2.9.10 =
 * Fixed bug where redirect after logout wasn't working.
