@@ -1,5 +1,4 @@
 === ProfilePress ===
-Contributors: Collins Agbonghama
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 5.1
