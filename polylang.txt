@@ -1,0 +1,23 @@
+=== ProfilePress - Polylang Integration ===
+Tags: login, registration, password reset, edit profile, front-end profile, profile, profilepress, polylang, multilingual
+Requires at least: 4.0
+Tested up to: 4.7.1
+Stable tag: 1.1
+License: GPL-2.0+
+
+Build multilingual login, registration, password reset, edit profile forms & more for WordPress.
+
+== Description ==
+A ProfilePress extension for building multilingual login, registration, password reset, edit profile forms & more for WordPress with Polylang plugin.
+
+== Frequently Asked Questions ==
+See the extension page for more info https://profilepress.net/downloads/polylang
+
+== Changelog ==
+
+= 1.1 =
+* Simplified codebase.
+* Fix license activation and update delivery bug.
+
+= 1.0 =
+* the genesis
