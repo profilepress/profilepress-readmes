@@ -1,0 +1,23 @@
+=== ProfilePress - WordPress & BuddyPress Extended Profile Sync ===
+Tags: profile, buddypress, sync, custom field, profile field, xprofile
+Requires at least: 4.0
+Tested up to: 4.7.1
+Stable tag: 1.1
+License: GPL-2.0+
+
+Sync WordPress custom profile fields with BuddyPress extended profile.
+
+== Description ==
+This nifty extension provides a 2-way syncing of WordPress profile and BuddyPress extended profile.
+
+== Frequently Asked Questions ==
+See the extension page for more info http://profilepress.net/downloads/wordpress-buddypress-extended-profile-sync
+
+== Changelog ==
+
+= 1.1 =
+* Utilize new profilepress licensing updater.
+* Minor bug fixes and code improvements.
+
+= 1.0 =
+* the genesis
