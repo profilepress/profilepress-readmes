@@ -1,0 +1,19 @@
+=== ProfilePress - Akismet Integration ===
+Tags: spam, anti-spam, antispam, bot, spam registration, user registration, akismet
+Requires at least: 4.0
+Tested up to: 4.7.3
+Stable tag: 1.0
+License: GPL-2.0+
+
+Stop spam WordPress user registration via ProfilePress powered registration forms.
+
+== Description ==
+This extension helps to fight/stop/block spam new user registrations in WordPress by ensuring all sign ups or user account created through a ProfilePress powered front-end registration form are checked by Akismet.
+
+== Frequently Asked Questions ==
+See the extension page for more info https://profilepress.net/downloads/akismet/
+
+== Changelog ==
+
+= 1.0 =
+* the genesis
