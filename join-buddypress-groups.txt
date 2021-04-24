@@ -1,0 +1,26 @@
+=== ProfilePress - Join BuddyPress Groups ===
+Tags: buddypress, group, users, registration, sign up
+Requires at least: 4.0
+Tested up to: 4.7.1
+Stable tag: 1.1
+License: GPL-2.0+
+
+Allow registering users to select BuddyPress groups to join.
+
+== Description ==
+This extension allows users to select or choose the BuddyPress groups they will like to join at the time of creating an account in your WordPress powered website via your registration form.
+
+== Frequently Asked Questions ==
+See the extension page for more info http://profilepress.net/downloads/join-buddypress-groups/
+
+== Changelog ==
+
+= 1.1 =
+* Utilize new profilepress licensing updater.
+* Minor bug fixes and code improvements.
+
+= 1.0.1 =
+* Fix self deactivation
+
+= 1.0 =
+* the genesis
