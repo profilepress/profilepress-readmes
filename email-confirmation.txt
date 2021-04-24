@@ -1,0 +1,44 @@
+=== ProfilePress - Email Confirmation Add-on ===
+Tags: email, confirmation, email confirmation
+Requires at least: 4.0
+Tested up to: 5.2
+Stable tag: 1.3.2
+License: GPL-2.0+
+
+Allow new users to confirm their email address before their account is activated or active.
+
+== Description ==
+ProfilePress email confimration add-on for WordPress ensure registered users verify or confirm their email address before their account is activated.
+They won't be able to log in to their account if their email address is not confirmed.
+
+== Frequently Asked Questions ==
+See the extension page for more info http://profilepress.net/downloads/email-confirmation/
+
+== Changelog ==
+
+= 1.3.2 =
+* Fixed bug where delete unverified users after x days wasn’t working.
+
+= 1.3.1 =
+* Added filter to specify url to redirect to after email confirmation.
+* Added filter to mail content.
+
+= 1.3 =
+* Added shortcode to resend email confirmation for logged in users.
+* Added filter to bypass check_if_user_is_activated.
+* Added option to autologin immediately after email confirmation is successful.
+* Cover use-case where user using email address to login will kick-in the confirmation check.
+
+= 1.2 =
+* Utilize new profilepress licensing updater
+* Minor bug fixes and code improvements.
+
+= 1.1 =
+* Fixed problem where addon was getting deactivated by itself.
+* Added a number of actions hook.
+
+= 1.0.1 =
+* Fixed bug where plugin deactivated itself at regular intreval.
+
+= 1.0 =
+* the genesis
