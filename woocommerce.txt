@@ -1,0 +1,19 @@
+=== ProfilePress - WooCommerce Integration ===
+Tags: woocommerce, custom fields, billing. shipping
+Requires at least: 4.0
+Tested up to: 4.7.2
+Stable tag: 1.0
+License: GPL-2.0+
+
+Allows you to manage Shipping and Billing fields with ProfilePress, replace the default WooCommerce login and edit account form with that of ProfilePress.
+
+== Description ==
+Our WooCommerce Integration extension seamlessly integrates WooCommerce with ProfilePress allowing you to manage Shipping and Billing fields with ProfilePress, replace the default WooCommerce login form and edit account form displayed on checkout and "My Account" pages respectively with that of ProfilePress.
+
+== Frequently Asked Questions ==
+See the extension page for more info https://profilepress.net/downloads/woocommerce
+
+== Changelog ==
+
+= 1.0 =
+* the genesis
