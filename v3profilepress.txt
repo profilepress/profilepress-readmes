@@ -1,0 +1,19 @@
+=== ProfilePress ===
+Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
+Requires at least: 4.6
+Tested up to: 5.7
+Stable tag: 3.0
+License: GPL-2.0+
+
+The modern WordPress membership and user profile plugin.
+
+== Description ==
+Stupidly simple way to create modern WordPress membership site with custom user registration, login, password reset forms as well as user profile.
+
+== Frequently Asked Questions ==
+See the website for more info https://profilepress.net
+
+== Changelog ==
+
+= 3.0 =
+* The genesis.
