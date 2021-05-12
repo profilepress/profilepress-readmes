@@ -5,13 +5,11 @@ Tested up to: 5.7
 Stable tag: 3.0
 License: GPL-2.0+
 
-Modern membership plugin for user registration, login form, user profile, member directories & content restriction.
+Extend the power of ProfilePress , the Modern membership and user profile plugin.
 
 == Description ==
 
-= The Modern WordPress Membership & User Profile Plugin =
-
-[ProfilePress](https://profilepress.net/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion) (formerly WP User Avatar) is a lightweight membership plugin that lets you create beautiful user profiles, member directories and frontend forms for user registration, login, password reset and editing profile information. It also allows you to protect sensitive content and control user access.
+[ProfilePress](https://profilepress.net/) is a lightweight membership plugin that lets you create beautiful user profiles, member directories and frontend forms for user registration, login, password reset and editing profile information. It also allows you to protect sensitive content and control user access.
 
 [ProfilePress](https://profilepress.net/) is the perfect solution for creating online communities and membership sites where users can easily register or signup to become members.
 
