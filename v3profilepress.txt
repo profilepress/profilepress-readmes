@@ -1,4 +1,4 @@
-=== ProfilePress ===
+=== ProfilePress Pro ===
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.6
 Tested up to: 5.7
