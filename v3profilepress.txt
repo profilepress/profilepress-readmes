@@ -2,7 +2,7 @@
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.6
 Tested up to: 5.7
-Stable tag: 3.0.5
+Stable tag: 3.0.6
 License: GPL-2.0+
 
 Extend the power of ProfilePress, the Modern membership and user profile plugin.
@@ -17,6 +17,12 @@ Extend the power of ProfilePress, the Modern membership and user profile plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 3.0.6 =
+* Added 'processing_label' to submit buttons shortcode-adder.
+* Improved sanitization and escaping of data.
+* Fixed issue where bulk delete wasn’t working in some cases
+* Typo fixes in admin pages.
 
 = 3.0.5 =
 * Added success color to registration form notice.
