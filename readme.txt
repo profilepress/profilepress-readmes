@@ -18,10 +18,8 @@ See the website for more info https://profilepress.net
 == Changelog ==
 
 = 2.9.28 =
-* Fixed missing sql unescaping in member directory search
-* Validate redirect_to url to prevent redirect to another site
-
-XSS  fix: Escap variables in tab widgets
+* Validate redirect_to url to prevent redirect to another site.
+* XSS fix: Escap variables in tab widgets.
 
 = 2.9.27 =
 * Security fix: Ensures only valid custom user meta are updated.
