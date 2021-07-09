@@ -2,7 +2,7 @@
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.0
 Tested up to: 5.8
-Stable tag: 2.9.27
+Stable tag: 2.9.28
 License: GPL-2.0+
 
 Ultimate WordPress plugin for User Registration, Login, Profile & more.
@@ -16,6 +16,12 @@ ProfilePress is the ultimate WordPress user management plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 2.9.28 =
+* Fixed missing sql unescaping in member directory search
+* Validate redirect_to url to prevent redirect to another site
+
+XSS  fix: Escap variables in tab widgets
 
 = 2.9.27 =
 * Security fix: Ensures only valid custom user meta are updated.
