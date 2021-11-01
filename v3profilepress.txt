@@ -2,7 +2,7 @@
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.6
 Tested up to: 5.8
-Stable tag: 3.0.10
+Stable tag: 3.0.11
 License: GPL-2.0+
 
 Extend the power of ProfilePress, the Modern membership and user profile plugin.
@@ -17,6 +17,9 @@ Extend the power of ProfilePress, the Modern membership and user profile plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 3.0.11 =
+* Added support for new admin framework
 
 = 3.0.10 =
 * Switched to DB session storage.
