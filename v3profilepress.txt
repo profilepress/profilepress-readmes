@@ -2,7 +2,7 @@
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.6
 Tested up to: 5.9
-Stable tag: 3.0.13
+Stable tag: 3.1.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, the Modern membership and user profile plugin.
@@ -17,6 +17,10 @@ Extend the power of ProfilePress, the Modern membership and user profile plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 3.1.0 =
+* [New] [Two-Factor Authentication addon](https://profilepress.net/addons/2fa/?utm_source=wporg_listing&utm_medium=readme&utm_campaign=changelog).
+* Fixed select2 bug with buddypress group selection field.
 
 = 3.0.13 =
 * Fixed bug where WC billing and shipping fields can be shown on the checkout.
