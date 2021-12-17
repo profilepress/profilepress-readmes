@@ -2,14 +2,14 @@
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 4.6
 Tested up to: 5.9
-Stable tag: 3.1.0
+Stable tag: 3.1.1
 License: GPL-2.0+
 
-Extend the power of ProfilePress, the Modern membership and user profile plugin.
+Extend the power of ProfilePress, a modern membership, and user profile plugin.
 
 == Description ==
 
-[ProfilePress](https://profilepress.net/) is a lightweight membership plugin that lets you create beautiful user profiles, member directories and frontend forms for user registration, login, password reset and editing profile information. It also allows you to protect sensitive content and control user access.
+[ProfilePress](https://profilepress.net/) is a lightweight membership plugin that lets you create beautiful user profiles, member directories, and frontend forms for user registration, login, password reset and editing profile information. It also allows you to protect sensitive content and control user access.
 
 [ProfilePress](https://profilepress.net/) is the perfect solution for creating online communities and membership sites where users can easily register or signup to become members.
 
@@ -17,6 +17,10 @@ Extend the power of ProfilePress, the Modern membership and user profile plugin.
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 3.1.1 =
+* Fixed bug where 2fa was enforced for everyone.
+* Fixed bug where 2fa shortcode was rendering nothing for non-logged-in users.
 
 = 3.1.0 =
 * [New] [Two-Factor Authentication addon](https://profilepress.net/addons/2fa/?utm_source=wporg_listing&utm_medium=readme&utm_campaign=changelog).
