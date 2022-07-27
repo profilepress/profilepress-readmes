@@ -1,17 +1,18 @@
 === ProfilePress Pro ===
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
-Requires at least: 4.6
+Requires at least: 5.3
+Requires PHP: 7.1.8
 Tested up to: 6.0
-Stable tag: 3.1.10
+Stable tag: 4.0.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern membership, and user profile plugin.
 
 == Description ==
 
-[ProfilePress](https://profilepress.net/) is a lightweight membership plugin that lets you create beautiful user profiles, member directories, and frontend forms for user registration, login, password reset and editing profile information. It also allows you to protect sensitive content and control user access.
+[ProfilePress](https://profilepress.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion) is a simple yet powerful eCommerce and paid membership plugin for accepting one-time and recurring payments and selling subscriptions via Stripe as well as restricting content and control user access.
 
-[ProfilePress](https://profilepress.net/) is the perfect solution for creating online communities and membership sites where users can easily register or signup to become members.
+ProfilePress lets you create beautiful user profiles, member directories, frontend login, and user registration forms, password reset and edit profile forms.
 
 == Frequently Asked Questions ==
 See the website for more info https://profilepress.net
