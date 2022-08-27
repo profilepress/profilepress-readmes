@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.1.8
 Tested up to: 6.0.1
-Stable tag: 4.1.0
+Stable tag: 4.1.1
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern membership, and user profile plugin.
@@ -18,6 +18,10 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.net
 
 == Changelog ==
+
+= 4.1.1 =
+* Prevent lite plugin deactivation when pro is active.
+* Implemented new filter for disabling google fonts.
 
 = 4.1.0 =
 * [PayPal Checkout addon](https://profilepress.com/addons/paypal/?ref=changelog) is live.
