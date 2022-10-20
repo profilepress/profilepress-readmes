@@ -3,14 +3,14 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.1.8
 Tested up to: 6.0.2
-Stable tag: 4.1.3
+Stable tag: 4.2.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern membership, and user profile plugin.
 
 == Description ==
 
-[ProfilePress](https://profilepress.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion) is a simple yet powerful eCommerce and paid membership plugin for accepting one-time and recurring payments and selling subscriptions via Stripe & PayPal as well as restricting content and control user access.
+[ProfilePress](https://profilepress.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion) is a simple yet powerful eCommerce and paid membership plugin for accepting one-time and recurring payments and selling subscriptions via Stripe, Mollie & PayPal as well as restricting content and control user access.
 
 ProfilePress lets you create beautiful user profiles, member directories, frontend login, and user registration forms, password reset and edit profile forms.
 
@@ -18,6 +18,9 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com
 
 == Changelog ==
+
+= 4.2.0 =
+* [Mollie addon](https://profilepress.com/addons/mollie/?ref=changelog) is live.
 
 = 4.1.3 =
 * Improved delivery of plugin updates.
