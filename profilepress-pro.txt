@@ -6,7 +6,7 @@ Tested up to: 6.1
 Stable tag: 4.2.1
 License: GPL-2.0+
 
-Extend the power of ProfilePress, a modern membership, and user profile plugin.
+Extend the power of ProfilePress, a modern ecommerce, paid membership and user profile plugin.
 
 == Description ==
 
