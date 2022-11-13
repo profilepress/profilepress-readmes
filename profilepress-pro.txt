@@ -1,9 +1,9 @@
 === ProfilePress Pro ===
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 5.3
-Requires PHP: 7.1.8
+Requires PHP: 7.2.0
 Tested up to: 6.1
-Stable tag: 4.2.1
+Stable tag: 4.2.2
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership and user profile plugin.
@@ -18,6 +18,10 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com
 
 == Changelog ==
+
+= 4.2.2 =
+* Added workaround for outlook safe links with passwordless login.
+* Added missing VK.com social login integration.
 
 = 4.2.1 =
 * Added redirect attribute to social login shortcode.
