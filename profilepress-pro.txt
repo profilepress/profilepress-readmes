@@ -3,14 +3,14 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.2.0
 Tested up to: 6.1
-Stable tag: 4.5.0
+Stable tag: 4.6.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership and user profile plugin.
 
 == Description ==
 
-[ProfilePress](https://profilepress.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion) is a simple yet powerful eCommerce and paid membership plugin for accepting one-time and recurring payments and selling subscriptions via Stripe, Mollie & PayPal as well as restricting content and control user access.
+[ProfilePress](https://profilepress.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion) is a simple yet powerful eCommerce and paid membership plugin for accepting one-time and recurring payments and selling subscriptions via Stripe, Mollie, PayPal, Razorpay & Paystack as well as restricting content and control user access.
 
 ProfilePress lets you create beautiful user profiles, member directories, frontend login, and user registration forms, password reset and edit profile forms.
 
@@ -18,6 +18,13 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com
 
 == Changelog ==
+
+= 4.6.0 =
+* Added [Paystack addon](https://profilepress.com/addons/paystack/?ref=prochangelog).
+* Fixed bug with razorpay refund not correctly reflecting in WP.
+* Removed view receipt for non-completed payments in order confirmation page.
+* Improved membership with ESP sync.
+* Fixed invalid textdomains.
 
 = 4.5.0 =
 * Added [RazorPay addon](https://profilepress.com/addons/razorPay/?ref=prochangelog).
