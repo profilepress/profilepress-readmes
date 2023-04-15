@@ -24,7 +24,6 @@ See the website for more info https://profilepress.com
 * Ensure payment gateways does not create duplicate transactions on checkout
 * Switched to disabling state support in hybridauth via config.
 * Fixed bug where mailchimp addon returned 10 tags.
-* Fixed a couple of PHP uncaught and notice errors.
 
 = 4.7.1 =
 * Fixed a couple of PHP uncaught and notice errors.
