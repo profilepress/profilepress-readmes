@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.2.0
 Tested up to: 6.2
-Stable tag: 4.7.4
+Stable tag: 4.7.5
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership and user profile plugin.
@@ -18,6 +18,9 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com
 
 == Changelog ==
+
+= 4.7.5 =
+* Added auto-renew settings support for pro payment methods.
 
 = 4.7.4 =
 * Added check to only process PayPal payments via supported currencies.
