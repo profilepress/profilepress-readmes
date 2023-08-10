@@ -20,7 +20,7 @@ See the website for more info https://profilepress.com
 == Changelog ==
 
 = 4.8.0 =
-* Added [Sensei LMS](https://profilepress.com/addons/sensei-lms/?ref=changelog) integration.
+* Added [Sensei LMS](https://profilepress.com/addons/sensei-lms/?ref=prochangelog) integration.
 * Fixed bug where PayPal checkout didn't work.
 * Fixed bug with unselected social login network showing up in forms.
 
