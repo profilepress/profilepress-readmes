@@ -1,9 +1,9 @@
 === ProfilePress Pro ===
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 5.3
-Requires PHP: 7.2.0
+Requires PHP: 7.2.5
 Tested up to: 6.2
-Stable tag: 4.7.5
+Stable tag: 4.8.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership and user profile plugin.
@@ -19,13 +19,18 @@ See the website for more info https://profilepress.com
 
 == Changelog ==
 
+= 4.8.0 =
+* Added [Sensei LMS](https://profilepress.com/addons/sensei-lms/?ref=changelog) integration.
+* Fixed bug where PayPal checkout didn't work.
+* Fixed bug with unselected social login network showing up in forms.
+
 = 4.7.5 =
 * Added auto-renew settings support for pro payment methods.
 
 = 4.7.4 =
 * Added check to only process PayPal payments via supported currencies.
 * Improve access token refresh in PayPal integration.
-* Increased number of returned Mailchimp audiences to the 1k max count.
+* Increased the number of returned Mailchimp audiences to the 1k max count.
 
 = 4.7.3 =
 * Fixed bug where paystack and razorpay checkout doesn't work again on error.
