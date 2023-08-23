@@ -1,7 +1,7 @@
 === ProfilePress Pro ===
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 5.3
-Requires PHP: 7.2.5
+Requires PHP: 7.3
 Tested up to: 6.3
 Stable tag: 4.8.0
 License: GPL-2.0+
