@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.3
 Tested up to: 6.3
-Stable tag: 4.9.0
+Stable tag: 4.10.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership and user profile plugin.
@@ -18,6 +18,10 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com
 
 == Changelog ==
+
+= 4.10.0 =
+* Added [Invite Codes](https://profilepress.com/addons/invite-codes/?ref=prochangelog) addon.
+* Added filter to enable metered paywall views for logged in users.
 
 = 4.9.0 =
 * Added [LifterLMS](https://profilepress.com/addons/lifterlms/?ref=prochangelog) integration.
