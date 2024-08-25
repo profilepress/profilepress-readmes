@@ -3,10 +3,10 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.4
 Tested up to: 6.6
-Stable tag: 4.10.7
+Stable tag: 4.11.0
 License: GPL-2.0+
 
-Extend the power of ProfilePress, a modern ecommerce, paid membership and user profile plugin.
+Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
 
 == Description ==
 
@@ -15,9 +15,13 @@ Extend the power of ProfilePress, a modern ecommerce, paid membership and user p
 ProfilePress lets you create beautiful user profiles, member directories, frontend login, and user registration forms, password reset and edit profile forms.
 
 == Frequently Asked Questions ==
-See the website for more info https://profilepress.com
+See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.11.0 =
+* Added [WooCommerce Memberships feature](https://profilepress.com/article/ultimate-woocommerce-memberships-plugin/?ref=prochangelog).
+* Enhancement: Do not show the tax rate in receipts if it is zero.
 
 = 4.10.7 =
 * Fixed bug where email confirmation addon unnecessarily cancels gateway subscriptions.
