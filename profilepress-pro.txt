@@ -20,7 +20,7 @@ See the website for more info https://profilepress.com/
 == Changelog ==
 
 = 4.11.0 =
-* Added [WooCommerce Memberships feature](https://profilepress.com/article/ultimate-woocommerce-memberships-plugin/?ref=prochangelog).
+* Added [WooCommerce Memberships feature](https://profilepress.com/article/create-woocommerce-membership-website/?ref=prochangelog).
 * Enhancement: Do not show the tax rate in receipts if it is zero.
 
 = 4.10.7 =
