@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.4
 Tested up to: 6.6
-Stable tag: 4.11.0
+Stable tag: 4.11.1
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -18,6 +18,11 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.11.1 =
+* Fixed Mollie gateway bug where the recurring subscription didn’t work.
+* Updated Twitter social login to X.
+* Remove deprecated jQuery codes.
 
 = 4.11.0 =
 * Added [WooCommerce Memberships feature](https://profilepress.com/article/create-woocommerce-membership-website/?ref=prochangelog).
