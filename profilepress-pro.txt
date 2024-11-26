@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.4
 Tested up to: 6.7
-Stable tag: 4.11.3
+Stable tag: 4.11.4
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -19,11 +19,14 @@ See the website for more info https://profilepress.com/
 
 == Changelog ==
 
+= 4.11.4 =
+* Fixed bug with incorrect insertion of ob_start().
+
 = 4.11.3 =
-* Improved social login session handling
+* Improved social login session handling.
 
 = 4.11.2 =
-* Fixed security issue with social login from accounts with unverified email address.
+* Fixed security issue with social login from accounts with unverified email addresses.
 
 = 4.11.1 =
 * Fixed Mollie gateway bug where the recurring subscription didn’t work.
