@@ -2,8 +2,8 @@
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 5.3
 Requires PHP: 7.4
-Tested up to: 6.7
-Stable tag: 4.12.0
+Tested up to: 6.8
+Stable tag: 4.12.1
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -18,6 +18,11 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.12.1 =
+* Added ppress_mc_is_sync_tags filter.
+* Added ppress_receipt_billed_to_column_end action hook.
+* Fixed Function _load_textdomain_just_in_time was called incorrectly.
 
 = 4.12.0 =
 * Added shortcode builder support for Member Directory
