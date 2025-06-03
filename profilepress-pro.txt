@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 5.3
 Requires PHP: 7.4
 Tested up to: 6.8
-Stable tag: 4.12.2
+Stable tag: 4.12.3
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -19,12 +19,18 @@ See the website for more info https://profilepress.com/
 
 == Changelog ==
 
+= 4.12.3 =
+* Added first and last name placeholders support in email confirmations.
+* Added custom field placeholder support to user moderation emails.
+* Fixed bug where passwordless login couldn't handle large user IDs.
+* Fixed bug where the slidebox in metered-paywall could be shown to allowed users.
+
 = 4.12.2 =
 * Added ppress_metered_paywall_settings_taxonomies filter
 * Added wp-wide support for emailConfirmation addon.
 * Fixed Function _load_textdomain_just_in_time was called incorrectly.
 * Fixed constant already defined error.
-* Made bulksync in mailchimp and campaign monitor memory efficient.
+* Made bulksync in mailchimp and Campaign Monitor memory efficient.
 
 = 4.12.1 =
 * Added ppress_mc_is_sync_tags filter.
