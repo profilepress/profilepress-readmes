@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.8
-Stable tag: 4.12.5
+Stable tag: 4.12.6
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -18,6 +18,13 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.12.6 =
+* Added [AffiliateWP addon](https://profilepress.com/addons/affiliatewp/?ref=prochangelog).
+* Added [SliceWP addon](https://profilepress.com/addons/affiliatewp/?ref=prochangelog).
+* Fixed bug with FixedSubscriptionExpiration addon date.
+* Fixed bug with autosync not working for MailerLite addon.
+* Added billig details support to ESP integrations.
 
 = 4.12.5 =
 * Added [Cloudflare Turnstile addon](https://profilepress.com/addons/cloudflare-turnstile/?ref=prochangelog).
