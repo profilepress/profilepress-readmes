@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 4.12.12
+Stable tag: 4.13.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -18,6 +18,12 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.13.0 =
+* [Brevo addon](https://profilepress.com/addons/brevo/?ref=prochangelog).
+* [Auto-Renewal Checkbox addon](https://profilepress.com/addons/auto-renewal-checkbox/?ref=prochangelog).
+* Added reCAPTCHA Enterprise support.
+* Added order and subscription mapping support to ESP integrations.
 
 = 4.12.12 =
 * Added filters for overriding Mollie and PayPal billing intervals.
