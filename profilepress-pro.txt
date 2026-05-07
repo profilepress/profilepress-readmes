@@ -24,12 +24,14 @@ See the website for more info https://profilepress.com/
 * [Auto-Renewal Checkbox addon](https://profilepress.com/addons/auto-renewal-checkbox/?ref=prochangelog).
 * Added reCAPTCHA Enterprise support.
 * Added order and subscription mapping support to ESP integrations.
+* Added support for specifying values for hidden custom fields.
+* Added support for adding hidden fields to the checkout form.
 
 = 4.12.12 =
 * Added filters for overriding Mollie and PayPal billing intervals.
 
 = 4.12.11 =
-* Fixed bug with Paystack incorrectly cancelling subscriptions for downgrade and free trial.
+* Fixed bug with Paystack incorrectly canceling subscriptions for downgrade and free trial.
 * Fixed bug where payment ID didn’t link to the transaction in Mollie.
 * Fixed bug with user profile preview not working for shortcode builder.
 
