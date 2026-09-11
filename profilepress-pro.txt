@@ -2,8 +2,8 @@
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
 Requires at least: 6.0
 Requires PHP: 7.4
-Tested up to: 7.0
-Stable tag: 4.15.1
+Tested up to: 7.1
+Stable tag: 4.15.2
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -18,6 +18,11 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.15.2 =
+* Fixed bug where Sync Tool for ESP didn’t list all created lists/audiences.
+* Fixed bug where previous membership expiration on plan downgrades wasn't preserved.
+* Fixed error: Function curl_close() is deprecated since 8.5
 
 = 4.15.1 =
 * Improved security of user moderation admin actions.
