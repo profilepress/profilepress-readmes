@@ -23,6 +23,7 @@ See the website for more info https://profilepress.com/
 * Fixed bug where Sync Tool for ESP didn’t list all created lists/audiences.
 * Fixed bug where previous membership expiration on plan downgrades wasn't preserved.
 * Fixed error: Function curl_close() is deprecated since 8.5
+* Made usermoderation enabled by default via checkout.
 
 = 4.15.1 =
 * Improved security of user moderation admin actions.
