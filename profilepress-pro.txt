@@ -3,7 +3,7 @@ Tags: login, registration, password reset, members, widget, users, profile, fron
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 4.15.3
+Stable tag: 4.16.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -18,6 +18,10 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.16.0 =
+* Added [Content Dripping addon](https://profilepress.com/addons/content-dripping/?ref=prochangelog).
+* Added [Subscription Pausing addon](https://profilepress.com/addons/subscription-pausing/?ref=prochangelog).
 
 = 4.15.3 =
 * Fixed bug with passwordless login not working.
