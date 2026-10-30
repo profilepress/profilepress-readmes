@@ -1,9 +1,9 @@
 === ProfilePress Pro ===
 Tags: login, registration, password reset, members, widget, users, profile, front-end profile, edit profile, avatar, profile picture
-Requires at least: 6.0
-Requires PHP: 7.4
+Requires at least: 6.9
+Requires PHP: 8.0
 Tested up to: 7.1
-Stable tag: 4.16.0
+Stable tag: 4.17.0
 License: GPL-2.0+
 
 Extend the power of ProfilePress, a modern ecommerce, paid membership, and user profile plugin.
@@ -18,6 +18,11 @@ ProfilePress lets you create beautiful user profiles, member directories, fronte
 See the website for more info https://profilepress.com/
 
 == Changelog ==
+
+= 4.17.0 =
+* Added [Advanced Courses addon](https://profilepress.com/addons/advanced-courses/?ref=changelog).
+* Added [Team Memberships addon](https://profilepress.com/addons/team-memberships/?ref=changelog).
+* Added filter to skip invite code field requirement in signup form.
 
 = 4.16.0 =
 * Added [Content Dripping addon](https://profilepress.com/addons/content-dripping/?ref=prochangelog).
